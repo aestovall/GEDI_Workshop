@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Become a GEDI Master
 
 ## Installation of rGEDI
