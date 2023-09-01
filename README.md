@@ -102,4 +102,4 @@ Finally, I've consolidated all datasets for the tutorial on GoogleDrive. They ar
 
 With those things completed you will be ready for the workshop!
 
-![](images/maytheforestbewithyou.gif){width="383"}
+![](images/maytheforestbewithyou.gif)
