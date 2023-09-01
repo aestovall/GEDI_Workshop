@@ -86,6 +86,20 @@ install.packages(c("rgeos",
                  "ggplot2"))
 ```
 
+Finally, I've consolidated all datasets for the tutorial on GoogleDrive. They are all publicly available data, but hopefully having everything in one place will make learning the process easier:
+
+-   GEDI
+
+    -   [L2A](https://drive.google.com/file/d/1w3OnQvNe0a3RlwCij63m3SQJ1MffZ17N/view?usp=drive_link)
+
+    -   [L2B](https://drive.google.com/file/d/1xS6YgCDY1Wwnc5sOCreBGPkJH86UlYCJ/view?usp=drive_link)
+
+    -   [L4A](https://drive.google.com/file/d/1p8gKx5fvAkVkYJQr1KLcszLYItokV_9q/view?usp=drive_link)
+
+    -   L4B
+
+-   [Auxiliary Datasets](https://drive.google.com/file/d/1nfkCeEmk-JBZnm2W2sqTN2qsuZ6H4DmO/view?usp=drive_link)
+
 With those things completed you will be ready for the workshop!
 
 ![](images/maytheforestbewithyou.gif){width="383"}
