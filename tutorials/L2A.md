@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # GEDI L2A
 
 ## Load Packages and Functions
