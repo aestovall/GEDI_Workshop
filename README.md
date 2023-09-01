@@ -61,3 +61,31 @@ Join our workshop and become a GEDI Master. The Global Ecosystem Dynamics Invest
     -   Considering how to use GEDI to train your own AGB map
 
     -   Parametric or Machine Learning?
+
+## Initial Installs and Setup
+
+You will need to download (or update) / install / register a couple of things to make sure we are able to move through the workshop seamlessly:
+
+-   Newest version of [R and R studio](https://posit.co/download/rstudio-desktop/)
+
+-   [QGIS](https://www.qgis.org/en/site/forusers/download.html)
+
+-   An account on NASA\'s [EarthData](https://search.earthdata.nasa.gov/)
+
+Once you\'ve installed all of the above please install a small set of R packages using the following command:
+
+``` r
+install.packages(c("rgeos",
+                 "rgdal",
+                 "sf",
+                 "rhdf5",
+                 "randomForest",
+                 "leaps",
+                 "raster",
+                 "data.table",
+                 "ggplot2"))
+```
+
+With those things completed you will be ready for the workshop!
+
+![](images/maytheforestbewithyou.gif){width="383"}
