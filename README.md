@@ -30,7 +30,7 @@ Join our workshop and become a GEDI Master. The Global Ecosystem Dynamics Invest
     -   Open L4A
     -   How to best use L4A?
     -   Considerations for Improvements
--   Developing AGB Maps with GEDI
+-   [**Developing AGB Maps with GEDI**](tutorials/GEDI_AGB_maps.md)
     -   GEDI L4B 1 km Gridded AGB Data
 
     -   Considering how to use GEDI to train your own AGB map
