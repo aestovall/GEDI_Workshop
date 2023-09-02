@@ -26,7 +26,7 @@ Join our workshop and become a GEDI Master. The Global Ecosystem Dynamics Invest
     -   Extract Metrics
     -   QAQC
     -   Applications
--   GEDI L4A - AGB Footprint Data
+-   [**GEDI L4A - AGB Footprint Data**](tutorials/L4A.md)
     -   Open L4A
     -   How to best use L4A?
     -   Considerations for Improvements
