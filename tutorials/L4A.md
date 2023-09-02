@@ -164,24 +164,7 @@ L4A.m<-getLevel4A(L4A.h5)
 
 `getLevel4A` selects useful metrics for further processing. The code for `getLevel4A` is based on the rGEDI package function, but is updated to function in the recent version of R. This greatly simplifies the pipeline. We can modify this function to include specific information from the h5 file, but, by default it includes:
 
-"beam",
- "shot_number",
- "lon_lowestmode",
- "lat_lowestmode",
- "delta_time",
- "sensitivity",
- "solar_elevation",
- "selected_algorithm",
- "elev_lowestmode",
- "agbd_pi_lower",
- "agbd_pi_upper",
- "agbd",
- "agbd_se",
- "agbd_t",
- "agbd_t_se",
- "l2_quality_flag" ,
- "degrade_flag" ,
- "l4_quality_flag"
+"beam", "shot_number", "lon_lowestmode", "lat_lowestmode", "delta_time", "sensitivity", "solar_elevation", "selected_algorithm", "elev_lowestmode", "agbd_pi_lower", "agbd_pi_upper", "agbd", "agbd_se", "agbd_t", "agbd_t_se", "l2_quality_flag" , "degrade_flag" , "l4_quality_flag"
 
 I find these variables give me most of what I need from the L4A data product.
 
@@ -278,7 +261,7 @@ names(agb.s)<-c("agb","agb_sd")
 plot(agb.s)
 ```
 
-![](images/agb_gridded-01.png)
+![](images/agb_gridded.png)
 
 ## Comparing to the Global GEDI L4B AGB map
 
