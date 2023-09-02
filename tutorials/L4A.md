@@ -11,7 +11,7 @@ library(rgdal)
 source("R/GEDI_FUN.R")
 ```
 
-## Get your list of GEDI L2B Data
+## Get your list of GEDI L4A Data
 
 ``` r
 #get a list of GEDI L4A files
@@ -19,7 +19,7 @@ L4A.ls<-list.files("Data/GEDIL4A", pattern="h5",
                    recursive = TRUE, full.names = TRUE)
 ```
 
-## GEDI L2B data structure
+## GEDI L4A data structure
 
 First, let's take a look
 
@@ -40,13 +40,13 @@ For an example of the GEDI data structure I'm going to choose a single orbit wit
 #Pick one!
 gedi.file<-L4A.ls[1]
 
-#read in the GEDI L2B file
+#read in the GEDI L4A file
 L4A.h5<-readLevel4B(gedi.file)
 ```
 
 `readLevel4A` simply reads in the h5 GEDI file. Nothing mysterious!
 
-Now that we have a GEDI L2B data in R we can look at the structure. It has a very complex hierarchical structure:
+Now that we have a GEDI L4A data in R we can look at the structure. It has a very complex hierarchical structure:
 
 ``` r
 #Let's look at a subset of the GEDI data structure
