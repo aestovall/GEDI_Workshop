@@ -1,10 +1,10 @@
 # Developing AGB Maps with GEDI
 
+![](images/GEDI_L4B.png)
+
 ## The 1 km GEDI AGB product
 
 GEDI has a global AGB product at 1 km resolution (see L4A Tutorial):
-
-![](images/GEDI_L4B.png)
 
 Here we can see a portion of the global 1 km GEDI AGB product. At a global scale this product is unprecedented, providing more forest structure measurements and AGB estimates than any other instrument. Whenever we are working with global products we can always make improvements by calibrating to our local study area. For this tutorial we will be using the L4A AGBD estimates to create an improved biomass map at our study site.
 
@@ -186,7 +186,7 @@ tdx         2.021e+00  3.882e-04    5205   <2e-16 ***
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
 Residual standard error: 43.16 on 15886454 degrees of freedom
-Multiple R-squared:  0.6304,	Adjusted R-squared:  0.6304 
+Multiple R-squared:  0.6304,    Adjusted R-squared:  0.6304 
 F-statistic: 2.71e+07 on 1 and 15886454 DF,  p-value: < 2.2e-16
 ```
 
