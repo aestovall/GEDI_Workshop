@@ -20,16 +20,25 @@ Join our workshop and become a GEDI Master. The Global Ecosystem Dynamics Invest
     -   Open L2A
     -   Extract Metrics
     -   QAQC
-    -   Applications
+    -   Clip to AOI
+    -   Comparing to ALS Data
+        -   Transect
+        -   Algorithm Selection
+        -   Validation
 -   [**GEDI L2B - Foliage Metrics and Profiles**](tutorials/L2B.md)
     -   Open L2B
     -   Extract Metrics
     -   QAQC
-    -   Applications
+    -   Clip to AOI
+    -   Viewing the PAVD Layers
+    -   Developing Maps and Generalized Profiles of PAVD
 -   [**GEDI L4A - AGB Footprint Data**](tutorials/L4A.md)
     -   Open L4A
-    -   How to best use L4A?
-    -   Considerations for Improvements
+    -   Extract Metrics
+    -   QAQC
+    -   Clip to AOI
+    -   Developing AGB Maps
+    -   Comparing to the Global GEDI L4B AGB Map
 -   [**Developing AGB Maps with GEDI**](tutorials/GEDI_AGB_maps.md)
     -   GEDI L4B 1 km Gridded AGB Data
 
